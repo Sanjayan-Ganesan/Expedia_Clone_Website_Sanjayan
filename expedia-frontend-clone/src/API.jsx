@@ -1,4 +1,4 @@
 function API() {
-  return "https://pumpkin-cake-23112.herokuapp.com";
+  return "https://expdia-clone.herokuapp.com/";
 }
 export default API;
