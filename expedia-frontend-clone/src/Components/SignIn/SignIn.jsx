@@ -57,7 +57,7 @@ function SignIn() {
           password: "",
         });
         toast({
-          title: "Login Successfull !!!",
+          title: "You have logged in Sucessfully!!",
           status: "success",
           duration: 2000,
           isClosable: true,
@@ -66,7 +66,7 @@ function SignIn() {
       })
       .catch((e) => {
         toast({
-          title: "Login Failed !!!",
+          title: "Please Try Again",
           status: "error",
           duration: 2000,
           isClosable: true,
@@ -128,7 +128,7 @@ function SignIn() {
             <Button
               w="100%"
               mt={4}
-              colorScheme="blue"
+              colorScheme="yellow"
               type="submit"
               onClick={(e) => {
                 handleSubmit(e);
